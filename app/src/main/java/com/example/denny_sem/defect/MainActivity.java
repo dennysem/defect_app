@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startShowActivity(View view) {
-
+        Intent intent = new Intent(getBaseContext(), ShowActivity.class);
+        startActivity(intent);
     }
 }
